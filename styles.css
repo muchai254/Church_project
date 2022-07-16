@@ -1,0 +1,47 @@
+#logo{
+    width:100px
+}
+
+.carousel-item img{
+    min-height: 700px;
+    max-height: 700px;    
+}
+@media (max-width: 575.98px) {
+    .carousel-item img{
+        min-height: 200px;
+        max-height: 200px;    
+    }
+}
+@media (min-width: 576px) and (max-width:767.98px){
+    .carousel-item img{
+        min-height: 300px;
+        max-height: 300px;    
+    }
+}
+@media (min-width: 768px) and (max-width:991.98px){
+    .carousel-item img{
+        min-height: 400px;
+        max-height: 400px;    
+    }
+}
+@media (min-width: 992px) and (max-width:1199.98px){
+    .carousel-item img{
+        min-height: 500px;
+        max-height: 500px;    
+    }
+}
+@media (min-width: 1200px) and (max-width:1399.98px){
+    .carousel-item img{
+        min-height: 600px;
+        max-height: 600px;    
+    }
+}
+
+
+
+.table {
+    background-image: url(images/kambui/back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
